@@ -183,36 +183,36 @@
     --color-info-content          : hsl(205, 32%, 31%);
     --color-notice-content        : hsl(51, 30%, 30%);
 
-  /* background,surface and border colors
+   /* background,surface and border colors
    */
-    --color-bg                    : var(--color-neutral-950);
-    --color-bg-inverse            : var(--color-neutral-600);
+    --color-bg                    :#1e3932 ;
+    --color-bg-inverse            :#d4e9e2;
 
-    --color-bg-primary            : var(--color-1-600);
-    --color-bg-primary-light      : var(--color-1-500);
-    --color-bg-primary-dark       : var(--color-1-700);
+    --color-bg-primary            :#00754a;
+    --color-bg-primary-light      :#d4e9e2;
+    --color-bg-primary-dark       : #0a2918;
 
-    --color-bg-secondary          : var(--color-2-500);
-    --color-bg-secondary-light    : var(--color-2-400);
-    --color-bg-secondary-dark     : var(--color-2-600);
+    --color-bg-secondary          :#f3f1e7;
+    --color-bg-secondary-light    :#ffffff;
+    --color-bg-secondary-dark     : #b2b1a9;
 
-    --color-bg-accent             : var(--color-bg-primary);
-    --color-bg-accent-light       : var(--color-bg-primary-light);
-    --color-bg-accent-dark        : var(--color-bg-primary-dark);
+    --color-bg-accent             :#cba258;
+    --color-bg-accent-light       :#e6d3b3;
+    --color-bg-accent-dark        :#a67c2d;
 
-    --color-bg-neutral            : var(--color-neutral-850);
-    --color-bg-neutral-light      : var(--color-neutral-800);
-    --color-bg-neutral-dark       : var(--color-neutral-900);
+    --color-bg-neutral            :#f3f1e7;
+    --color-bg-neutral-light      :#ffffff;
+    --color-bg-neutral-dark       : #b2b1a9;
 
-    --color-border                : var(--color-neutral-850);
+    --color-border                :#00754a;
 
   /* text
    */
-    --color-text                  : var(--color-neutral-200);
-    --color-text-bold             : var(--color-neutral-50);
-    --color-text-light            : var(--color-neutral-500);
-    --color-headings              : var(--color-neutral-100);
-    --color-placeholder           : var(--color-neutral-500);
+    --color-text                  :#e5e5e5(--color-neutral-200);
+    --color-text-bold             : #fafafa(--color-neutral-50);
+    --color-text-light            : #737373(--color-neutral-500);
+    --color-headings              : #f5f5f5(--color-neutral-100);
+    --color-placeholder           : #737373(--color-neutral-500);
 
   /* link
    */
@@ -223,14 +223,14 @@
   /* buttons
    */
     --color-btn                   : var(--color-bg-neutral);
-    --color-btn-text              : var(--color-white);
+    --color-btn-text              : var(--color-black);
     --color-btn-hover             : var(--color-bg-neutral-light);
-    --color-btn-hover-text        : var(--color-white);
+    --color-btn-hover-text        : var(--color-black);
 
     --color-btn-primary           : var(--color-bg-accent);
-    --color-btn-primary-text      : var(--color-white);
+    --color-btn-primary-text      : var(--color-black);
     --color-btn-primary-hover     : var(--color-bg-accent-dark);
-    --color-btn-primary-hover-text: var(--color-white);
+    --color-btn-primary-hover-text: var(--color-black);
 
     --color-btn-ghost             : var(--color-bg-secondary);
     --color-btn-ghost-text        : var(--color-bg-secondary);
